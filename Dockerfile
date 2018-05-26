@@ -3,7 +3,7 @@ MAINTAINER Liang Ding <dl88250@gmail.com>
 
 ADD . /solo
 WORKDIR /solo
-RUN mvn install
+RUN mvn install -Dmaven.test.skip=true
 WORKDIR /solo/target/solo
 
 EXPOSE 80
