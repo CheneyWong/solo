@@ -1,5 +1,5 @@
 FROM maven:3
-MAINTAINER Liang Ding <dl88250@gmail.com>
+MAINTAINER Cheney <hq@gpio.me>
 
 ADD . /solo
 WORKDIR /solo
